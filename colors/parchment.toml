@@ -1,0 +1,43 @@
+# Parchment (UML) — a WezTerm color scheme.
+# Load with wezterm.color.load_scheme(), or point color_schemes_dir at this
+# directory to select it by name ("parchment").
+
+[colors]
+background = "#FFFEF8"
+foreground = "#0000C0"
+
+cursor_bg = "#0088FF"
+cursor_fg = "#0F0F0F"
+cursor_border = "#382D1A"
+
+selection_bg = "#0000C0"
+selection_fg = "#FFFEF8"
+
+scrollbar_thumb = "#8A6D3B"
+split = "#8A6D3B"
+
+ansi = [
+  "#000000", # black
+  "#A31515", # red
+  "#008000", # green
+  "#808000", # yellow
+  "#0000C0", # blue
+  "#7F0055", # purple
+  "#008080", # cyan
+  "#C0C0C0", # white
+]
+
+brights = [
+  "#808080", # bright black
+  "#C00000", # bright red
+  "#00A000", # bright green
+  "#A0A000", # bright yellow
+  "#0000FF", # bright blue
+  "#C000C0", # bright purple
+  "#00A0A0", # bright cyan
+  "#FFFDE4", # bright white
+]
+
+[metadata]
+name = "Parchment (UML)"
+origin_url = "https://github.com/sorndotdev/wezterm-parchment-theme"
